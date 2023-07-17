@@ -1,9 +1,8 @@
 #include<stdio.h>
 
 /**
- * Main- Entry point
+ * Main - Entry point
  * Description:printing variables
- *
  * Return: (0) Always (success)
  */
 int main(void)

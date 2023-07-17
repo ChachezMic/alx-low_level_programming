@@ -4,8 +4,7 @@
 
 /**
  * main - assigns a random int n everytime
- * description:executes and prints
- *
+ * it executes and prints
  * Return(0): Always 0 (success)
  */
 

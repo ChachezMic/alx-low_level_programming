@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * Main - Entry point
+ * main - Entry point
  * Description:printing variables
  * Return: (0) Always (success)
  */

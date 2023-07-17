@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  * main-assigns a random int n everytime
- * executes and prints
+ * description:executes and prints
+ *
  * Return(0): Always 0 (success)
  */
 

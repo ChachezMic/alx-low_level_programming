@@ -1,10 +1,9 @@
 #include "main.h"
-
 /**
-  *rev_string- prints in reverse
-  *_strlen- count
- *@s: checked
- *Return: nothing
+ * _strlen -  count
+ * rev_string - prints in reverse
+ * @s: checked
+ * Return: nothing
  */
 int _strlen(char *s)
 {

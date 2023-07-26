@@ -1,4 +1,6 @@
 #include "main.h"
+#include <string.h>
+
 /**
  *puts_half- print half
  *@str:checked
@@ -6,21 +8,13 @@
  */
 void puts_half(char *str)
 {
+	int x, y, i;
 
-	int i, n;
-
-	i = 0;
-
-	while (*(str + i) != '\0')
-	{
-		i++;
-	}
-	n = i / 2;
-	while (n <= i)
-	{
-		_putchar(str[n]);
-		n++;
-
-	}
-	_putchar('\n');
+	x = strlen(str);
+	if (x % 2 == 1)
+		y = x / 2 + 1;
+	else
+		y = x / 2;
+	for (i = y; i < x; i++)
+		_putchar(str[i]);
 }

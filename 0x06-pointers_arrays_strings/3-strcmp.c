@@ -10,8 +10,13 @@
 
 int _strcmp(char *s1, char  *s2)
 {
-	int result;
+	int counter, compare_value;
 
-result = strcmp(s1, s2);
-return (result);
+	counter = 0;
+	while (s1[counter] == s2[counter] && s1[counter] != '\0')
+	{
+		counter++;
+	}
+	compare_value = s1[counter] - s2[counter];
+	return (compare_value);
 }

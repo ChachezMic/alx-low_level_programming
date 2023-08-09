@@ -1,0 +1,2 @@
+my static libraries task
+

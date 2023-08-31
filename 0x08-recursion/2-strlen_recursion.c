@@ -2,7 +2,7 @@
 /**
  * _strlen_recursion - measures the length of a string
  * @s:string to be measured
- * return:length of a string
+ * Return:length of a string
  */
 int _strlen_recursion(char *s)
 {

@@ -43,6 +43,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		ptS1[i + j] = s2[j];
 	}
+	for (j = 0; j < length2; j++)
+	{
+		ptS1[i + j] = s2[j];
+	}
 	ptS1[i + j] = '\0';
 	return (ptS1);
 }

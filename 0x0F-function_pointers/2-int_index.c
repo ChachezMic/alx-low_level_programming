@@ -5,6 +5,7 @@
  * @size:No. of elements in an array
  * @cmp:function that compares values
  * @array:holds values to be compared
+ * Return: 0
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {

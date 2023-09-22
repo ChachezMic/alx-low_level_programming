@@ -3,8 +3,7 @@
 
 /**
  * list_len - returns the no. of elements in a linked list
- *d ascscss @h: pointer to the list_t 
- *
+ * @h: pointer to the list_t
  * Return: no. of elements in h
  */
 size_t list_len(const list_t *h)

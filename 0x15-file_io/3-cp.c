@@ -2,10 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+char *create_buffer(char *file);
+void close_file(int fd);
 /**
  * create_buffer - Allocates 1024 bytes for a buffer.
  * @file: The name of the file buffer is storing chars for.
- * Return: A pointer to the new buffer.
+ *
+ * Return: A pointer to the newly-allocated buffer.
  */
 char *create_buffer(char *file)
 {
@@ -30,6 +33,7 @@ char *create_buffer(char *file)
 void close_file(int fd)
 {
 	int k;
+
 	k = close(fd);
 
 	if (k == -1)
@@ -41,9 +45,11 @@ void close_file(int fd)
 
 /**
  * main - Copies the contents of a file to another file.
- * @argc: The no. of arguments supplied to the program.
- * @argv: An array of pointers to the argnts.
+ * @argc: The number of arguments supplied to the program.
+ * @argv: An array of pointers to the arguments.
+ *
  * Return: 0 on success.
+
  * Description: If the argument count is incorrect - exit code 97.
  * file_from does not exist or cannot be read - exit code 98.
  * file_to cannot be created or written to - exit code 99.
